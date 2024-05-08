@@ -1,6 +1,10 @@
 package com.stopstone.recyclerviewpractice
 
-sealed class Items
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+sealed class Items : Parcelable
 
 data class Item(val text: String, val image: String) : Items()
 
