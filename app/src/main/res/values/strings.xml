@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerviewPractice</string>
+    <string name="label_item_add_button">ITEM ADD</string>
+    <string name="label_item_delete_button">ITEM DELETE</string>
+</resources>
